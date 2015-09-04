@@ -7,9 +7,9 @@ Getting Started
 To get started with Android/CyanogenMod, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the Wimpknocker and CyanogenMod trees, use a command like this:
+To initialize your local repository using the devsaurus, Wimpknocker, and CyanogenMod trees, use a command like this:
 
-    repo init -u git://github.com/wimpknocker/android_manifests.git -b cm-12.1
+    repo init -u git://github.com/devsaurus/android_manifests.git -b cm-12.1
 
 Then to sync up:
 

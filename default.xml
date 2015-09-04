@@ -18,11 +18,11 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="wimpknocker/android_build" groups="pdk,tradefed" >
+  <project path="build" name="CyanogenMod/android_build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="wimpknocker/android_manifests" />
+  <project path="android" name="devsaurus/android_manifests" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
@@ -338,8 +338,8 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" />
-  <project path="frameworks/av" name="wimpknocker/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="wimpknocker/android_frameworks_base" />
+  <project path="frameworks/av" name="devsaurus/android_frameworks_av" groups="pdk" />
+  <project path="frameworks/base" name="devsaurus/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
@@ -348,7 +348,7 @@
   <project path="frameworks/minikin" name="CyanogenMod/android_frameworks_minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
   <project path="frameworks/multidex" name="CyanogenMod/android_frameworks_multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="wimpknocker/android_frameworks_native" groups="pdk" />
+  <project path="frameworks/native" name="devsaurus/android_frameworks_native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="CyanogenMod/android_frameworks_opt_bitmap" />
   <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
@@ -570,7 +570,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" remote="aosp" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" />
   <project path="sdk" name="platform/sdk" remote="aosp" />
-  <project path="system/core" name="wimpknocker/android_system_core" groups="pdk" />
+  <project path="system/core" name="devsaurus/android_system_core" groups="pdk" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
   <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" />
   <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" />
@@ -594,6 +594,6 @@
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
   <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
   <!-- Device Skomer -->
-  <project name="wimpknocker/android_device_samsung_skomer" path="device/samsung/skomer" revision="cm-12.1-new" /> 
-  <project name="wimpknocker/android_kernel_samsung_skomer" path="kernel/samsung/skomer" revision="cm-12.1" /> 
+  <project name="devsaurus/android_device_samsung_skomer" path="device/samsung/skomer" revision="cm-12.1-new" /> 
+  <project name="devsaurus/android_kernel_samsung_skomer" path="kernel/samsung/skomer" revision="cm-12.1" /> 
 </manifest>
